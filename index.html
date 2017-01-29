@@ -4,39 +4,54 @@
     <title>Will Odham's Blogs</title>
   </head>
   <body>
-    <img src="https://thumbs.dreamstime.com/t/coffee-cup-beach-background-47279363.jpg"/>
-
+    <img src="https://thumbs.dreamstime.com/t/coffee-cup-beach-background-47279363.jpg" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'/>
+<!-- I have added the code to the obove line for centering and expanding the jpg from a forum. -->
       <h1 style="color: blue; font-size:40px"> "switch vs if/else" </h1>
-
-        <p style="font-size:35px"> The difference between "switch" and "if/else" could be said the speed of execution.
+        <p style="font-size:35px; font-family: Impact"> The difference between "switch" and "if/else" could be said the speed of execution.
           The switch statement operates faster than if/else. The compiler creates a jump table during compilation.
           It jumps for value catching. If/else is a strict type of condition check.
           This allows for deciding which case has to executed, not which case needs to be satisfied.
           Switch statements are easier to read in comparison to if/else statements.
         </p>
-        <p style="font-size:35px"> Limitations exist for switch statements as well. A switch statement must know the value during compilation.
+        <p style="font-size:35px; font-family: Impact"> Limitations exist for switch statements as well. A switch statement must know the value during compilation.
           You cannot use like expressions or flat expressions. Variable expressions are not allowed either.
         </p>
-        <p style="font-size:35px"> For complex comparisons or if there are large numbers to be compared, switch statements are good to use.
+        <p style="font-size:35px; font-family: Impact"> For complex comparisons or if there are large numbers to be compared, switch statements are good to use.
         </p>
-        <p style="font-size:35px"> A if/else statement would be good for simple or small amount of compares.
-        <p style="font-size:35px"> They are both used for evaluating conditions.
+        <p style="font-size:35px; font-family: Impact"> A if/else statement would be good for simple or small amount of compares.
+        <p style="font-size:35px; font-family: Impact"> They are both used for evaluating conditions.
         </p>
 
-        <h1 style="color: blue; font-size:40px"> "‘=’ vs ‘==’ vs ‘.equals’" </h1>
+      <h1 style="color: blue; font-size:40px"> "‘=’ vs ‘==’ vs ‘.equals’" </h1>
+        <ol style="font-size:35px; font-family: Impact">
+          <li style="font-size:35px; font-family: Impact"> In java, the '=' would be used in a declaration of an int value such as "a = 10".
+          </li>
+          <li style="font-size:35px; font-family: Impact"> '==' is an operator that is used to check memory location or address of two objects are same or not.
+          </li>
+          <li style="font-size:35px; font-family: Impact"> '.equals()'is a method. The main purpose is to compare the state of two objects or contents of the object.
+          </li>
+        </ol>
 
-        <p style="font-size:35px"> Im java, the '=' would be used in a declaration of an int value such as "a = 10".
+      <h1 style="color: blue; font-size:40px"> "What happens when you include ‘import java.util.Scanner;’ in your code? Where does this functionality come from? What is the ‘java’ in ‘java.util.Scanner;’?" </h1>
+        <p style="font-size:35px; font-family: Impact"> In Java, 'import java.util.Scanner' is a simple text scanner class within within util folder inside the java folder, or java/util/scanner may be easier to understand. When declared can parse primitive types and strings using regular expressions. Scanner is a predifined class for taking user input. The functionality comes from the methods within the class.
+          So when I first see this, I know that the program will be looking for user input when compiled and ran.
         </P>
-        <p style="font-size:35px"> '==' is an operator that is used to check memory location or address of two objects are same or not.
+        <p style="font-size:35px; font-family: Impact"> A scanner breaks down its input into tokens usnig a delimiter pattern, which by default matches whitespace.
+          A scanning operation may block waiting for input. A scanner is not safe for multithreaded use without external synchronization.
         </P>
-        <p style="font-size:35px"> '.equals()'is a method. The main purpose is to compare the state of two objects or contents of the object.
-        </P>
 
+      <h1 style="color: blue; font-size:40px"> "What is ‘void’ in a method declaration? How does this differ from declaring a method with a return type?" </h1>
+        <p style="font-size:35px; font-family: Impact"> I'll sart with the second question first. When declaring a method return type, it indicates whether the method returns a value when called and what type. If the method does not return a value, void should be specified.
+          So 'return type' is looking for value where 'void' is not.
+        </p>
 
-
-        <h1 style="color: blue; font-size:40px"> "What happens when you include ‘import java.util.Scanner;’ in your code? Where does this functionality come from? What is the ‘java’ in ‘java.util.Scanner;’?" </h1>
-
-        <p style="font-size:35px">
-        </P>
+      <h1 style="color: blue; font-size:40px"> "When it comes to methods, what is the difference between a “parameter” and an “argument”? Is there one? When would you use one versus the other?" </h1>
+        <p style="font-size:35px; font-family: Impact"> Reading through forums, people would say they are the same. The term parameter refers to any declaration within the parentheses following a method/function name in a method/function decloration or definition.
+          The term argument refers to any expression within the parentheses of a method/function call.
+        </p>
+        <ol style="font-size:35px; font-family: Impact">
+          <li> paramter are used in function/method definition. </li>
+          <li> arguments are used in function/method call. </li>
+        </ol>
   </body>
 </html>
